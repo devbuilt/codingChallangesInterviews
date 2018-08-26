@@ -14,7 +14,7 @@ const sum = (...args) => {
     //passing sum to total
     let total;
     // reduce add numbers
-    total = args.reduce((x, y) => x + y, 0);
+    total = args.reduce((x, y) => x + y, 0); // ES6 pass two arguments add x + y the "0" is optional just for refrence start at 0
 console.log(total);
 }
 

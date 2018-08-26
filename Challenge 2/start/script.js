@@ -9,7 +9,8 @@ Don't change lines 14, 19.
 
 "use strict";
 
-const arr = [1, 2];
+// const arr = [1, 2]; is incorrect in es6 you cant change array value you must you use "let"
+let arr = [1, 2];
 
 arr.push(3);
 
