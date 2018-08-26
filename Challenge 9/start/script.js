@@ -12,6 +12,12 @@ var obj = {
   z: 3
 };
 
+function mult(object){
+
+  var {x,y,z} = object;
+  
+  return x * y * z;
+}
 // Write mult() function here
 
 console.log(mult(obj));
