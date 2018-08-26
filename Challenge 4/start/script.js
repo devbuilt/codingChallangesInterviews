@@ -9,7 +9,7 @@ Error after the line 20 should still be generated.
 var a = 5,
   b = 10;
 
-if (b > a) {
+if (b
   c = a + b;
   var c = 2;
   console.log(c);

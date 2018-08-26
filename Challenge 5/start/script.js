@@ -6,13 +6,17 @@ using ternary operator.
 
 "use strict";
 
-function isNumber(a) {
-  if (typeof a === "number") {
-    return "That's number";
-  } else {
-    return "That's not a number";
-  }
-}
+// function isNumber(a) {
+//   if (typeof a === "number") {
+//     return "That's number";
+//   } else {
+//     return "That's not a number";
+//   }
+// }
+const isNumber = (a) => { typeof a === "number" ? "Thats a number" : "Thats not a number" }
+// function isNumber(a){
+//   return typeof a === "number" ? "Thats a number" : "Thats not a number"; // no arrow function
+// }
 
 console.log(isNumber(10));
 // That's number
