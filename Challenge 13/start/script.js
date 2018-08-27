@@ -14,6 +14,16 @@ var cars = [
   { brand: "Rolls-Royce", price: 120000 }
 ];
 
+var carInfo = (car) => { 
+
+  let s;
+
+  if(car.price <= 20000) s = "Cheap";
+  else s = "expensive";
+
+  return ` Price of my new ${car.brand}\ is ${car.price}
+ and it is ${s} car.`
+};
 // Write carInfo() function here
 
 cars.forEach(car => console.log(carInfo(car)));
